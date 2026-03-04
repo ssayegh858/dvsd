@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 0.9fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr 3fr 0.2fr ;
+    grid-template-areas:
+    "gvsa  gvsa  gvsa"
+    "intruduction intruduction intruduction"
+    "links links links"
+    "golde australian australian"
+    "moreinfo moreinfo moreinfo"
+    ;
+}
+
+
+.gvsa {
+    grid-area: gvsa;
+    background-color: yellow;
+    gap: 0.1em;
+}
+.intruduction {
+    grid-area: intruduction;
+    background-color: pink;
+    gap: 0.3em;
+}
+.links {
+    grid-area: links;
+    background-color: lightblue;
+    gap: 0.2em;
+}
+.golde {
+    grid-area: golde;
+    background-color: lightgreen;
+    gap: 0.5em;
+}
+.australian {
+    grid-area: australian;
+    background-color: lightcoral;
+    gap: 0.3em;
+}
+.moreinfo {
+    grid-area: moreinfo;
+    background-color: rgb(175, 33, 33);
+    gap: 0.4em;
+}
