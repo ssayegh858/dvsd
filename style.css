@@ -20,31 +20,31 @@
 
 .gvsa {
     grid-area: gvsa;
-    background-color: yellow;
+    background-color: rgb(26, 171, 238);
     gap: 0.1em;
 }
 .intruduction {
     grid-area: intruduction;
-    background-color: pink;
+    background-color: rgb(82, 129, 230);
     gap: 0.3em;
 }
 .links {
     grid-area: links;
-    background-color: lightblue;
+    background-color: rgb(41, 105, 224);
     gap: 0.2em;
 }
 .about {
     grid-area: about;
-    background-color: lightgreen;
+    background-color: rgb(62, 94, 161);
     gap: 0.5em;
 }
 .picture {
     grid-area: picture;
-    background-color: lightcoral;
+    background-color: rgb(28, 98, 163);
     gap: 0.3em;
 }
 .moreinfo {
     grid-area: moreinfo;
-    background-color: rgb(175, 33, 33);
+    background-color: rgba(44, 55, 212, 0.705);
     gap: 0.4em;
 }
