@@ -1,5 +1,38 @@
       
 
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+nav li.active a {
+    background-color: #4CAF50;
+    color: white;
+}
+
 
 
 
